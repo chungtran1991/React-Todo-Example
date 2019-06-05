@@ -1,12 +1,7 @@
 
 import React, { Component } from 'react';
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faCoffee, faTimesCircle } from '@fortawesome/free-solid-svg-icons'
 import TodoList from './TodoList';
 import TodoItems from './TodoItems';
-
-library.add(fab, faCoffee, faTimesCircle);
 
 class App extends Component {
   constructor() {
